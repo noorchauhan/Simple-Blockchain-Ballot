@@ -1,7 +1,7 @@
 # Simple-Blockchain-Ballot
 
 This a demonstration of a simple Ballot box system on the Blockchain.\
-The following code is written in Solidity programming language.\
+The following code is written in Solidity programming language.
 
 To test the smart contract out, head over to https://remix.ethereum.org :
 * Copy-Paste the Election.sol file in remix solidity environment
