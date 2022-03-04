@@ -10,5 +10,5 @@ To test the smart contract out, head over to https://remix.ethereum.org :
 * Now with your contract-owner account you can authorize voters to vote
 * Use the different authorized accounts to vote for the candidate of your choice
 
-And that's all for this simple blockchain ballot system, Now you can experiment around with the other functions of the smart contract. \
+And that's all for this simple blockchain ballot system, Now you can experiment around with the other functions of the smart contract.
 
