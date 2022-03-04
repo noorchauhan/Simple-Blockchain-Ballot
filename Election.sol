@@ -42,14 +42,14 @@ contract Election {
 
         function authorize(address voter) public {
 
-            require(msg.sender == owner);
+            require(msg.sender == owner); // Only owner can execute the smart contract
             require(!voters[voter].voted);
 
             voters[voter].weight = 1;
 
         }
 
-        //It's time to vote now
+        //adding the vote function
 
         function vote(uint voteIndex) public { 
             require(block.timestamp < endElection); // vote is allwed only if the election hasn't ended yet
@@ -83,4 +83,3 @@ contract Election {
     
 
 }
-
