@@ -49,7 +49,7 @@ contract Election {
 
         }
 
-        //adding the vote function
+        //adding the vote function 
 
         function vote(uint voteIndex) public { 
             require(block.timestamp < endElection); // vote is allwed only if the election hasn't ended yet
